@@ -76,7 +76,7 @@ what the final product looks like, you can follow this link to the HTML page tha
 video demonstration and test for yourself that the links to the email and github pages are functional.  
 
 
-[HTML PAGE](https://aseppala98.github.io/Team_Profile_Generator/team.html)
+[HTML PAGE](https://AM-Cowles.github.io/Team_Profile_Generator/team.html)
 
 ## License
 
