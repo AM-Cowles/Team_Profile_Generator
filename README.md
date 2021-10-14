@@ -95,6 +95,6 @@ Here is another link to the application tests also included in the site overview
 
 ## Questions
 
-If you have any questions about the application, be sure to contact me at my [e-mail](mailto:SeppalaErin98@gmail.com)
+If you have any questions about the application, be sure to contact me at my [e-mail](mailto:alyssa.m.cowles@gmail.com)
 
-Alternatively you can find me and my other works at my [Github account](https://github.com/aseppala98)
+Alternatively you can find me and my other works at my [Github account](https://github.com/AM-Cowles)
