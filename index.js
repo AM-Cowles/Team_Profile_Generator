@@ -1,8 +1,4 @@
-// Node Modules
-const inquirer = require('inquirer');
-let manager;
-let engineers = [];
-let interns = [];
+
 
 // Native Modules
 
