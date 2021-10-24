@@ -4,17 +4,7 @@ let manager;
 let engineers = [];
 let interns = [];
 
-// Native Modules
 
-const fs = require("fs");
-const util = require("util");
-const appendFileAsync = util.promisify(fs.appendFile);
-
-// Personal Modules
-
-const Manager = require('./lib/Manager')
-const Engineer = require('./lib/Engineer')
-const Intern = require('./lib/Intern')
 
 
 // Function to ask user for information about the Manager
