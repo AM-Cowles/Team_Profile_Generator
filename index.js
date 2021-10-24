@@ -17,75 +17,7 @@ const Engineer = require('./lib/Engineer')
 const Intern = require('./lib/Intern')
 
 
-// Function to ask user for information about the Manager
-function addManager() {
-    return inquirer.prompt([{
-            type: "input",
-            name: "name",
-            message: "What is the name of the team manager?"
-        },
-        {
-            type: "input",
-            name: "id",
-            message: "What is the ID of the team manager?"
-        },
-        {
-            type: "input",
-            name: "email",
-            message: "What is the email address of the team manager?"
-        },
-        {
-            type: "input",
-            name: "number",
-            message: "What is the phone number of the team manager?"
-        },
-        {
-            type: "list",
-            name: "progress",
-            message: "What do you want to do next?",
-            choices: [
-                "Add an Engineer",
-                "Add an Intern",
-                "I am done"
-            ]
-        }
-    ])
-}
 
-// Function to ask user for information about an Engineer
-function addEngineer() {
-    return inquirer.prompt([{
-            type: "input",
-            name: "name",
-            message: "What is the name of the Engineer?"
-        },
-        {
-            type: "input",
-            name: "id",
-            message: "What is the ID of the Engineer?"
-        },
-        {
-            type: "input",
-            name: "email",
-            message: "What is the email address of the Engineer?"
-        },
-        {
-            type: "input",
-            name: "github",
-            message: "What is the Github of the Engineer?"
-        },
-        {
-            type: "list",
-            name: "progress",
-            message: "What do you want to do next?",
-            choices: [
-                "Add an Engineer",
-                "Add an Intern",
-                "I am done"
-            ]
-        }
-    ])
-}
 
 // Function to add information about an Intern
 function addIntern() {
