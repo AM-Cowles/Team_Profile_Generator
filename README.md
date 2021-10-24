@@ -28,7 +28,7 @@ a few simple questions and hitting run.
 ## Installation Instructions
 
 Simply clone this project to your local computer and you should be good to go! All you would need to have in advance is node.js installed so that you can utilize the modules but after that you should be able to create your very own HTML page for your team of hard working engineers interns and manager. The node modules should already be included for this project, but if they are not or they are out of date, just run a 'npm install'.   
- 
+
 
 ## Site Overview
 
