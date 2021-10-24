@@ -87,7 +87,40 @@ function addEngineer() {
     ])
 }
 
-
+// Function to add information about an Intern
+function addIntern() {
+    return inquirer.prompt([{
+            type: "input",
+            name: "name",
+            message: "What is the name of the Intern?"
+        },
+        {
+            type: "input",
+            name: "id",
+            message: "What is the ID of the Intern?"
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "What is the email address of the Intern?"
+        },
+        {
+            type: "input",
+            name: "school",
+            message: "What is the school of the Intern?"
+        },
+        {
+            type: "list",
+            name: "progress",
+            message: "What do you want to do next?",
+            choices: [
+                "Add an Engineer",
+                "Add an Intern",
+                "I am done"
+            ]
+        }
+    ])
+}
 
 // Generates HTML header and generates card for Manager
 function generateManagerHTML(manager) {
